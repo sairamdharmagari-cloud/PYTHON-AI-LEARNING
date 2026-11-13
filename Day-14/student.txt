@@ -1,0 +1,4 @@
+Name: Sairam
+Course: AI & ML
+Learning Python
+Goal: Become an AI/ML Engineer
