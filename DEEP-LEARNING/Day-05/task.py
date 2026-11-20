@@ -28,7 +28,6 @@ predicted = np.clip(predicted ,epsilon , 1- epsilon)
 
 bce = -np.mean(
     actual * np.log(predicted)
-    +(1 - actual) * np.log(1 - predicted)
-)
+    +(1 - actual) * np.log(1 - predicted))
 
 print("BCE:",bce)
